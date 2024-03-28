@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Mate SC", serif;
+    font-style: normal;
+}
+
+/* INICIO CABECALHO*/
+.cabecalho {
+    background-color: rgb(190, 173, 177);
+ }
+ 
+ .cabecalho-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+ }
+
+ .logo p{
+    font-size: 35px;
+ }
+
+ .listas{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+
+ }
+ .listas a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 19px;
+    color: #434343;
+    border-radius: 30px;
+    transition: 0.6s;
+ }
+
+ .listas a:hover{
+    background-color: #434343;
+}
+
+ .listas li{
+    margin: 0% 2% 0% 2%;
+ }
+ /* FIM CABECALHO*/
+ /* INICIO MAIN*/
+#container-principal{
+    background-image:url("/imagens/main.png.jpg");
+    width: 100vw;
+    height: 89vh;
+    background-size: cover;
+}
+.conteudo-container{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+.botao-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 66px;
+    border: none;
+    background-color: #0c55f1;
+    font-family: "Mate SC", serif;
+    color: #f7f7f7;
+    font-size: 50px;
+    cursor: pointer;
+    margin-top: 2%;
+ }
+
+ .botao-principal a, a:visited{
+    text-decoration: none;
+    color: unset;
+ }
+ /* FIM DO MAIN*/
+ /* INICIO DA SECAO PRODUTOS*/
+
+ #produtos{
+    background-color: #8b8b8b;
+    padding: 2%;
+ }
+
+ .produtos-container{
+    background-color: #8b8b8b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+    flex-wrap: wrap;
+ }
+
+.imagem-container img{
+    max-width: 400px;
+    max-height: 400px;
+}
+
+/* FIM DA SECAO PRODUTOS*/
+/* INICIO DO FORMULARIO*/
+#formulario{
+    background-color: gray;
+    padding: 2%;
+}
+
+.formulario-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* FIM DO FORMULARIO */

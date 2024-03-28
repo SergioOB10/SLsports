@@ -1,20 +1,66 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <title>sportwork</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=McLaren&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/base.css">
-        <link rel="stylesheet" href="css/title.css">      
-        <link rel="stylesheet" href="css/button.css">
-    </head>
-    <body>
-        <h1>Sergio Oliveira </h1>
-        <h1>lucas gabriel</h1>
-        <h2>sportive lifestyle</h2>  
-       
-        <button>Explore</button>
- 
-    </body>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SL Sports</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho-container">
+            <div class="logo">
+                <p>Sportive Articles</p>
+            </div>
+            <ul class="listas">
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main id="container-principal">
+        <div class="conteudo-container">
+            <div class="botao-principal">
+                <a href="#produtos">Explore</a>
+            </div>
+        </div>
+    </main>
+
+    <section id="produtos">
+        <div class="produtos-container">
+            <div class="imagem-container">
+                <img src="/imagens/ass.png.jpg" alt="img1" title="roupas esportivas">
+                <p>&#40Sala com tv&#41</p>
+            </div>
+            <div class="imagem-container">
+                <img src="./imagens/balls.png.jpg" alt="img2" title="acessorios">
+                <p>&#40Peaky blinders&#41</p>
+            </div>
+            <div class="imagem-container">
+                <img src="./imagens/shoes.png.jpg" alt="img3" title="tenis">
+                <p>&#40Game of thrones&#41</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="formulario">
+        <form class="formulario-container">
+            <label for="username">Email:</label><br>
+            <input type="text" id="username" name="username"><br>
+            <label for="password">Senha:</label><br>
+            <input type="password" id="password" name="password"><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</body>
+
 </html>
